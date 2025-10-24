@@ -56,7 +56,7 @@ const Footer = () => {
           </motion.a>
 
           <motion.a
-            href="mailto:abhishekmamgai2005@.com"
+            href="mailto:abhishekmamgai2005@gmail.com"
             whileHover={{ scale: 1.2 }}
             className="p-3 rounded-full bg-gray-800/40 backdrop-blur-sm hover:bg-gradient-to-r hover:from-pink-500 hover:to-blue-500 transition-all shadow-md"
           >
