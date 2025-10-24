@@ -33,24 +33,6 @@ const Footer = () => {
           Designing intelligent systems & crafting modern digital experiences.
         </p>
 
-        {/* Supportive Partner Line */}
-        <motion.p
-          initial={{ opacity: 0, y: 10 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.8 }}
-          className="text-sm text-gray-400 mb-8"
-        >
-          Supported by{' '}
-          <a
-            href="https://mokshbhardwaj.netlify.app"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="text-transparent bg-clip-text bg-gradient-to-r from-pink-500 via-purple-500 to-blue-500 font-semibold hover:underline"
-          >
-            Moksh Bhardwaj
-          </a>
-        </motion.p>
-
         {/* Social Links */}
         <div className="flex justify-center items-center gap-6 mb-8">
           <motion.a
@@ -64,7 +46,7 @@ const Footer = () => {
           </motion.a>
 
           <motion.a
-            href="https://github.com/abhishek-mamgai"
+            href="https://github.com/abhishekmamgai"
             target="_blank"
             rel="noopener noreferrer"
             whileHover={{ scale: 1.2 }}
@@ -74,7 +56,7 @@ const Footer = () => {
           </motion.a>
 
           <motion.a
-            href="mailto:abhishek@mamgai.com"
+            href="mailto:abhishekmamgai2005@.com"
             whileHover={{ scale: 1.2 }}
             className="p-3 rounded-full bg-gray-800/40 backdrop-blur-sm hover:bg-gradient-to-r hover:from-pink-500 hover:to-blue-500 transition-all shadow-md"
           >
