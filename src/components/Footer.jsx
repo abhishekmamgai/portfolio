@@ -29,9 +29,27 @@ const Footer = () => {
         </h3>
 
         {/* Subtitle */}
-        <p className="text-gray-400 mb-8 text-sm md:text-base tracking-wide">
+        <p className="text-gray-400 mb-4 text-sm md:text-base tracking-wide">
           Designing intelligent systems & crafting modern digital experiences.
         </p>
+
+        {/* Supportive Partner Line */}
+        <motion.p
+          initial={{ opacity: 0, y: 10 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.8 }}
+          className="text-sm text-gray-400 mb-8"
+        >
+          Supported by{' '}
+          <a
+            href="https://mokshbhardwaj.netlify.app"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-transparent bg-clip-text bg-gradient-to-r from-pink-500 via-purple-500 to-blue-500 font-semibold hover:underline"
+          >
+            Moksh Bhardwaj
+          </a>
+        </motion.p>
 
         {/* Social Links */}
         <div className="flex justify-center items-center gap-6 mb-8">
