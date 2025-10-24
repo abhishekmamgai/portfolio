@@ -1,5 +1,6 @@
 // src/components/About.jsx
 import { motion } from "framer-motion";
+import profilePic from "../assets/profile.jpg"; // <-- Image import
 
 const About = () => {
   return (
@@ -35,7 +36,7 @@ const About = () => {
           <div className="w-64 h-80 md:w-72 md:h-96 overflow-hidden rounded-3xl shadow-2xl border border-pink-500/40 relative">
             <div className="absolute inset-0 bg-gradient-to-t from-pink-500/10 via-transparent to-transparent rounded-3xl"></div>
             <img
-              src="/src/assets/profile.jpg"
+              src={profilePic} // <-- Updated
               alt="Abhishek Mamgai"
               className="w-full h-full object-cover rounded-3xl"
             />
