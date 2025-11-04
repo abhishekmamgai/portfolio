@@ -29,7 +29,7 @@ const Footer = () => {
         </h3>
 
         {/* Subtitle */}
-        <p className="text-gray-400 mb-4 text-sm md:text-base tracking-wide">
+        <p className="text-gray-400 mb-3 text-sm md:text-base tracking-wide">
           Designing intelligent systems & crafting modern digital experiences.
         </p>
 
