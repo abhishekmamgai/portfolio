@@ -3,10 +3,10 @@ import { motion } from 'framer-motion';
 const Projects = () => {
   const projects = [
     {
-      title: 'E-Commerce Platform',
-      desc: 'Full-stack shopping app built with React, Node.js, and MongoDB for seamless online transactions.',
-      img: 'https://th.bing.com/th/id/OIP.mBPsl3qAOVgexYlgZe9TogHaD4?w=345&h=180&c=7&r=0&o=7&dpr=1.3&pid=1.7&rm=3',
-      link: 'https://github.com/abhishek/project1',
+      title: 'Melofy',
+      desc: 'A full-featured music streaming app built with React, Python backend, and MySQL. Includes playlists, waveform visualizer, and real-time audio controls.',
+      img: 'https://image2url.com/images/1763405449581-401aa072-c468-440d-af80-2beaebe9099c.png',
+      link: 'https://melofystudio.vercel.app/',
     },
     {
       title: 'TaskSync',
